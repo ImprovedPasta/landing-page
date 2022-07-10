@@ -77,7 +77,8 @@ img{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    font-size: 25px;
+    font-size: 36px;
+    font-style: bold;
 }
 
 .container{
@@ -97,4 +98,73 @@ img{
 .review{
     max-width: 100px;
     font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 250px;
+    color: #1F2937;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.author{
+    font-style: normal;
+    text-align: right;
+}
+
+.cta{
+    margin-bottom: 30px;
+}
+
+.cta-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.cta-bg,
+.cta-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 6px;
+}
+
+.right-content{
+    color: #F9FAF8;
+}
+
+.right-content p{
+    font-weight: 100;
+}
+
+.left-content{
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 8px;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 50px;
+    color: #F9FAF8;
 }
